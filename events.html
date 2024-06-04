@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Events</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="events-script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html">
+                <img src="nasaLogo.png" class="logo" alt="NASA Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <h1>NASA Recent Events</h1>
+        <div class="search-bar">
+            <label for="mission-keywords">Search by keyword:</label>
+            <input type="text" id="mission-keywords" placeholder="Enter a keyword...">
+            <button id="search-button" type="button">Search</button>
+        </div>
+        <div id="events" class="events-grid"></div>
+    </div>
+</body>
+</html>
